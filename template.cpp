@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 using ll = long long;
-using vi = vector<int>;
-using mii = pair<int,int>;
-using mci = pair<char, int>;
+using mii = map<int, int>;
+using mci = map<char, int>;
 
 #define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
 
@@ -15,7 +15,7 @@ using mci = pair<char, int>;
 #endif
 
 void solve() {
-  // solution
+  // Solution
 }
 
 int main() {
