@@ -13,7 +13,7 @@ void out(const T &t, const Args&... args) {
 }
 
 void solve() {
-    // solution
+    // SOLUTION
 }
 
 int main() {
