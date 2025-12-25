@@ -1,35 +1,27 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-using ll = long long;
-using mii = map<int, int>;
-using mci = map<char, int>;
+template<typename T>
+void out(const T &t) {
+    cout << t << '\n';
+}
 
-#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
-
-// ---------------- Debug Macro ----------------
-// Prints variable name and value for debugging
-// Only active if compiled with -DLOCAL
-// Example: g++ -DLOCAL template.cpp -o run
-#ifdef LOCAL
-#define debug(x) cerr << #x << " = " << x << "\n";
-#else
-#define debug(x)
-#endif
-
+template<typename T, typename... Args>
+void out(const T &t, const Args&... args) {
+    cout << t << ' ';
+    out(args...);
+}
 
 void solve() {
-    // Write your solution here
-    // Use debug(x) to print variable values when testing locally
+    // solution
 }
 
 int main() {
-    fastio;
+    ios::sync_with_stdio(false); cin.tie(nullptr);
 
-    int t = 1;           
-    cin >> t;            
-    while (t--) solve(); 
+    int t = 1;
+    cin >> t;
+    while (t--) solve();
 
     return 0;
 }
