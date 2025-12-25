@@ -5,6 +5,6 @@ Each problem solution follows a **consistent naming convention** for easy organi
 
 ### Naming Conventions
 
-- *Codeforces:* `<contest_number><ProblemLetter>_<ProblemName>.cpp`
+- *Codeforces:* `<contest_number><ProblemLetter>_<ProblemName>.<language_extention>`
 
-- *LeetCode:* `<number>_<ProblemName>.cpp`
+- *LeetCode:* `<number>_<ProblemName>.<language_extention>`
